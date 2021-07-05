@@ -3,21 +3,21 @@ import MeetupList from "../components/meetups/MeetupList";
 const DUMMY_DATA = [
   {
     id: "m1",
-    title: "This is a first meetup",
+    title: "First meetup: Silicon Valley",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg",
+      "https://blog.youthall.com/wp-content/uploads/2020/11/silicon-780x450.png",
     address: "Meetupstreet 5, 12345 Meetup City",
     description:
-      "This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!",
+      "This is the first meetup, located in silicon valley, amazing meetup which you definitely should not miss. It will be a lot of fun!",
   },
   {
     id: "m2",
-    title: "This is a second meetup",
+    title: "Second meetup: Tokyo",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg",
+      "https://lh3.googleusercontent.com/proxy/VpK2dOoB2SWui-_yHcS3cAXUxyTWjpWPWvJgXSCDMz3nvZMga5kvO4-k7Sc3Rivn3a2A-SuEv47FLS7AmhBlnkfORyGgVBgW2358zbm9JYPsWHbk5fvSHO8dmA",
     address: "Meetupstreet 5, 12345 Meetup City",
     description:
-      "This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!",
+      "This is the second meetup. It will be located in Tokyo",
   },
 ];
 
