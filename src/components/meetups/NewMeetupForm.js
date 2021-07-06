@@ -53,8 +53,8 @@ function NewMeetupForm(props) {
             ref={descriptionInputRef}
           ></textarea>
         </div>
-        <div className={classes.action}>
-          <button>Add Meetup</button>
+        <div className={classes.meetupbtn}>
+          <button className={classes.actions}>Add Meetup</button>
         </div>
       </form>
     </Card>
