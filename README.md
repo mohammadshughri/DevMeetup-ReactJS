@@ -4,6 +4,30 @@ A simple ReactJS website to schedule meetups for developers.
 
 Checkout a preview of the website [here.](https://devsmeetup.netlify.app/)
 
+## Technologies used
+
+- ReactJS
+
+- Firebase database
+
+- Docker
+
+## Initializing  the project
+
+You need to have Docker Engine installed on your machine.
+You can check by running the following command:
+
+```
+$ docker -v
+Docker version 20.10.7, build f0df350
+```
+
+Then run the following commands to set up your docker container.
+
+```
+docker build -t meetup-reactjs .
+docker run -p 3000:3000  meetup-reactjs
+```
 ## Available Scripts
 
 ### `npm start`
