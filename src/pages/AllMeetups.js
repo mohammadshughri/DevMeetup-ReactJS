@@ -13,8 +13,7 @@ const DUMMY_DATA = [
   {
     id: "m2",
     title: "Second meetup: Tokyo",
-    image:
-      "https://lh3.googleusercontent.com/proxy/VpK2dOoB2SWui-_yHcS3cAXUxyTWjpWPWvJgXSCDMz3nvZMga5kvO4-k7Sc3Rivn3a2A-SuEv47FLS7AmhBlnkfORyGgVBgW2358zbm9JYPsWHbk5fvSHO8dmA",
+    image: "https://www.hisglobal.com.tr/assets/images/uploads/1583759608.jpg",
     address: "Meetupstreet 5, 12345 Meetup City",
     description: "This is the second meetup. It will be located in Tokyo",
   },
