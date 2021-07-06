@@ -9,7 +9,7 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
+      <div className={classes.logo}>Dev Meetups</div>
       <nav>
         <ul>
           <li>
@@ -21,7 +21,10 @@ function MainNavigation() {
           <li>
             <Link to="/favorites">
               My Favorites
-              <span className={classes.badge}>{favoritesCtx.totalFavorites}</span></Link>
+              <span className={classes.badge}>
+                {favoritesCtx.totalFavorites}
+              </span>
+            </Link>
           </li>
         </ul>
       </nav>
